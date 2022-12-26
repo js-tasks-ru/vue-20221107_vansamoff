@@ -13,4 +13,6 @@ const app = createApp({
       this.counter += 1;
     },
   },
-}).mount('#app');
+});
+
+const vm = app.mount('#app');
